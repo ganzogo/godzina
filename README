@@ -1,7 +1,8 @@
 godzina
 
-Python module that tells you the time in Polish in both official (24hr) and unofficial (12hr)
-formats. Also, tells you how to say something happened *at* that time.
+Python module that tells you the time in Polish in both official (24hr) and
+unofficial (12hr) formats. Also, tells you how to say something happened *at*
+that time.
 
 Command line usage:
 
