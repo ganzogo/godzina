@@ -1,0 +1,60 @@
+
+jeden
+dwa
+trzy
+cztery
+pięć
+sześć
+siedem
+osiem
+dziewięć
+dziesięć
+jedenaście
+dwanaście
+trzynaście
+czternaście
+pietnaście
+szesnaście
+siedemnaście
+osiemnaście
+dziewiętnaście
+dwadzieścia
+dwadzieścia jeden
+dwadzieścia dwa
+dwadzieścia trzy
+dwadzieścia cztery
+dwadzieścia pięć
+dwadzieścia sześć
+dwadzieścia siedem
+dwadzieścia osiem
+dwadzieścia dziewięć
+trzydzieści
+trzydzieści jeden
+trzydzieści dwa
+trzydzieści trzy
+trzydzieści cztery
+trzydzieści pięć
+trzydzieści sześć
+trzydzieści siedem
+trzydzieści osiem
+trzydzieści dziewięć
+czterdzieści
+czterdzieści jeden
+czterdzieści dwa
+czterdzieści trzy
+czterdzieści cztery
+czterdzieści pięć
+czterdzieści sześć
+czterdzieści siedem
+czterdzieści osiem
+czterdzieści dziewięć
+piędzieśąt
+piędzieśąt jeden
+piędzieśąt dwa
+piędzieśąt trzy
+piędzieśąt cztery
+piędzieśąt pięć
+piędzieśąt sześć
+piędzieśąt siedem
+piędzieśąt osiem
+piędzieśąt dziewięć
