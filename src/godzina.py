@@ -135,27 +135,25 @@ def nieoficjalnie_o(hours, minutes):
     return 'za %s %s' % (MINUTES[60 - minutes], UNOFFICIAL_HOURS_A[next_hour])
 
 def main():
-  if len(sys.argv) == 2:
-
-    match = re.match(TIME_PATTERN, sys.argv[1])
-    if match is None:
-      print_usage()
-
-    hours = int(match.groups()[0])
-    minutes = int(match.groups()[1])
-
-    if hours < 0 or hours > 23:
-      print_usage()
-
-    if minutes < 0 or minutes > 59:
-      print_usage()
-
-    print '%02d:%02d' % (hours, minutes)
-    print 'oficjalnie: %s, %s' % (oficjalnie_jest(hours, minutes), oficjalnie_o(hours, minutes))
-    print 'nieoficjalnie: %s, %s' % (nieoficjalnie_jest(hours, minutes), nieoficjalnie_o(hours, minutes))
-
-  else:
+  if len(sys.argv) != 2:
     print_usage()
+
+  match = re.match(TIME_PATTERN, sys.argv[1])
+  if match is None:
+    print_usage()
+
+  hours = int(match.groups()[0])
+  minutes = int(match.groups()[1])
+
+  if hours < 0 or hours > 23:
+    print_usage()
+
+  if minutes < 0 or minutes > 59:
+    print_usage()
+
+  print '%02d:%02d' % (hours, minutes)
+  print 'oficjalnie: %s, %s' % (oficjalnie_jest(hours, minutes), oficjalnie_o(hours, minutes))
+  print 'nieoficjalnie: %s, %s' % (nieoficjalnie_jest(hours, minutes), nieoficjalnie_o(hours, minutes))
 
 if __name__ == '__main__':
   main()
